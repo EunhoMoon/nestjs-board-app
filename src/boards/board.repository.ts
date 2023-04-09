@@ -1,5 +1,10 @@
-// import { EntityRepository, Repository } from 'typeorm';
+// import { InjectRepository } from '@nestjs/typeorm';
 // import { Board } from './board.entity';
+// import { Repository } from 'typeorm';
 //
-// @EntityRepository(Board)
-// export class BoardRepository extends Repository<Board> {}
+// export class BoardRepository {
+//   constructor(
+//     @InjectRepository(Board)
+//     private boardRepository: Repository<Board>,
+//   ) {}
+// }
